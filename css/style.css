@@ -129,6 +129,16 @@ h1, h2, h3, h4, h5,
   overflow: hidden;
   position: relative; }
   @media (max-width: 991.98px) {
+      
+      .site-navbar .site-navigation .site-menu > li > a {
+        text-transform: uppercase;
+        font-size: 10px;
+        letter-spacing: .1rem;
+        font-weight: 900;
+        padding: 20px 20px;
+        color: #fff;
+        display: inline-block;
+        text-decoration: none !important; }
     .hover-bg-enlarge {
       height: auto !important; } }
   .hover-bg-enlarge > div {
@@ -244,7 +254,7 @@ h1, h2, h3, h4, h5,
   margin-bottom: 0px;
   z-index: 1999;
   width: 100%; }
-  .site-navbar .container-fluid {
+  .site-nav bar .container-fluid {
     padding-left: 7rem;
     padding-right: 7rem; }
   .site-navbar .site-navigation.border-bottom {
@@ -252,7 +262,7 @@ h1, h2, h3, h4, h5,
   .site-navbar .site-navigation .site-menu {
     margin-bottom: 0; }
     .site-navbar .site-navigation .site-menu .active > a {
-      color: #000;
+      color: #fff;
       display: inline-block;
       padding: 5px 20px; }
     .site-navbar .site-navigation .site-menu a {
@@ -261,15 +271,15 @@ h1, h2, h3, h4, h5,
     .site-navbar .site-navigation .site-menu > li {
       display: inline-block; }
       .site-navbar .site-navigation .site-menu > li .desc {
-        font-size: 12px;
+        font-size: 10px;
         color: #969696; }
       .site-navbar .site-navigation .site-menu > li > a {
         text-transform: uppercase;
-        font-size: 16px;
+        font-size: 14px;
         letter-spacing: .1rem;
         font-weight: 900;
         padding: 20px 20px;
-        color: #fff;
+        color: #4DACF1;
         display: inline-block;
         text-decoration: none !important; }
         .site-navbar .site-navigation .site-menu > li > a:hover {
@@ -522,7 +532,7 @@ h1, h2, h3, h4, h5,
     -webkit-transition: .3s all ease;
     -o-transition: .3s all ease;
     transition: .3s all ease;
-    background: #4DACF1; }
+    background: #fff; }
     .sticky-wrapper .site-navbar .site-logo a {
       color: #000; }
     .sticky-wrapper .site-navbar .site-menu > li {
