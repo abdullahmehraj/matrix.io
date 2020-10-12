@@ -574,7 +574,7 @@ h1, h2, h3, h4, h5,
 /* Blocks */
 .intro-section {
   background-size: cover;
-  position: relative; }
+  position: center; }
   .intro-section, .intro-section .container .row {
     height: 100vh;
     min-height: 700px; }
@@ -1823,3 +1823,6 @@ i:hover{
     opacity: 1;
   }
 }
+
+
+
