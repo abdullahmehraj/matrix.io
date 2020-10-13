@@ -1834,11 +1834,21 @@ i:hover{
   height: 100%; 
 
   /* Center and scale the image nicely */
- 
+
   background-repeat: no-repeat;
   background-size: cover;
-   background-attachment: fixed;
-  background-position: 50% 50%; 
   
+  background-position: 50% 50%; 
+
 }
 
+
+nav-hover{
+    border: 2px;
+    border-radius: 10px;
+}
+nav-hover:hover{
+    color: #fff;
+    background-color: forestgreen;
+    
+}
