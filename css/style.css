@@ -586,8 +586,8 @@ h1, h2, h3, h4, h5,
     position: absolute;
     height: 100%;
     width: 100%;
-    background: #222;
-    opacity: .5;
+    /*background: #222;
+    opacity: .5;*/
     border-bottom-right-radius: 0px;
     background-size: cover;
     background-position: center;
@@ -1825,4 +1825,20 @@ i:hover{
 }
 
 
+
+.bg {
+  /* The image used */
+  background-image: url('../images/website%20design-01%20(1).png');
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+ 
+  background-repeat: no-repeat;
+  background-size: cover;
+   background-attachment: fixed;
+  background-position: 50% 50%; 
+  
+}
 
