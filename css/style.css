@@ -1828,7 +1828,7 @@ i:hover{
 
 .bg {
   /* The image used */
-  background-image: url('../images/background-01-01-01-01-01-01.png');
+  background-image: url('../images/background-01-01-01-01-01-01-01.png');
 
   /* Full height */
   height: 100%; 
@@ -1838,7 +1838,7 @@ i:hover{
   background-repeat: no-repeat;
   background-size: cover;
   
-  background-position: 50% 50%; 
+  background-position: center; 
 
 }
 
@@ -1851,4 +1851,22 @@ nav-hover:hover{
     color: #fff;
     background-color: forestgreen;
     
+}
+
+ul.navbar-nav{
+	width:100%; 
+	display: flex;
+  padding:0px;
+}
+
+
+
+.ml2 {
+  font-weight: 900;
+
+}
+
+.ml2 .letter {
+  display: inline-block;
+  line-height: 1em;
 }
